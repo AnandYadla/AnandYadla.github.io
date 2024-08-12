@@ -6,20 +6,17 @@
 	var projectsArray = [
 		{
 			"id": "projectTykOperator",
-			"url": "https://github.com/TykTechnologies/tyk-operator"
+			"url": "https://github.com/AnandYadla/End-to-End-Data-Engineering-Project"
 		},
 		{
 			"id": "projectAWS",
-			"url": "https://github.com/pavanswaroopl/aws-fullstack-user-registration"
+			"url": "https://github.com/AnandYadla/Tableau-Dashboard"
 		},
 		{
 			"id": "projectCICD",
-			"url": "https://github.com/pavanswaroopl/DevOpsPipeline"
+			"url": "https://github.com/AnandYadla/Prime-Dashboard"
 		},
-		{
-			"id": "projectVehicle",
-			"url": "https://github.com/pavanswaroopl/Vehicle-Reservation-webapp"
-		}
+		
 	]
 
 	projectsArray.forEach(element => {
