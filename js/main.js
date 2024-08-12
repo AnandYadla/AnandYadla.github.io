@@ -15,18 +15,21 @@
 		{
 			"id": "projectCICD",
 			"url": "https://github.com/AnandYadla/Prime-Dashboard"
-		},
-		
-	]
-
+		}	
+	];
+	
 	projectsArray.forEach(element => {
-		var projectObject = document.getElementById(element.id);
-		projectObject.style.cursor = 'pointer';
-		projectObject.onclick = function() {
-			window.open( 
-				element.url, "_blank"); 
-		}
+	    var projectObject = document.getElementById(element.id);
+	    if (projectObject) {  // Check if the element exists
+	        projectObject.style.cursor = 'pointer';
+	        projectObject.onclick = function() {
+	            window.open(element.url, "_blank"); 
+	        }
+	    } else {
+	        console.warn(`Element with id ${element.id} not found`);
+	    }
 	});
+
 
 	var isMobile = {
 		Android: function () {
