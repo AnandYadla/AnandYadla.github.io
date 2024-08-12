@@ -3,6 +3,25 @@
 
 	'use strict';
 
+	var projectsArray = [
+		{
+			"id": "projectTykOperator",
+			"url": "https://github.com/TykTechnologies/tyk-operator"
+		},
+		{
+			"id": "projectAWS",
+			"url": "https://github.com/pavanswaroopl/aws-fullstack-user-registration"
+		},
+		{
+			"id": "projectCICD",
+			"url": "https://github.com/pavanswaroopl/DevOpsPipeline"
+		},
+		{
+			"id": "projectVehicle",
+			"url": "https://github.com/pavanswaroopl/Vehicle-Reservation-webapp"
+		}
+	]
+
 	projectsArray.forEach(element => {
 		var projectObject = document.getElementById(element.id);
 		projectObject.style.cursor = 'pointer';
